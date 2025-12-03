@@ -1,0 +1,230 @@
+body {
+    background-color: rgb(20, 20, 41);
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #28c6ff;
+}
+
+h1 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    margin-top: -0rem;
+    margin-bottom: 1rem;
+}
+
+
+h2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: #28c6ff;
+    font-size: 2.3rem;
+}
+
+
+h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: aquamarine;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+p {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    background-color:rgb(20, 20, 41);
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+
+
+.support-us-header {
+    color: #28c6ff;
+    margin-left: 1rem;
+}
+
+
+.support-us-paragraph {
+    display: block;
+    position: relative;
+    text-wrap-mode: wrap;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+
+.three-digits {
+    color:#28c6ff;
+    font-weight: 700;
+}
+
+
+.kofi-link {
+    display: flex;
+    position: relative;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+
+.henry-portrait {
+    display: flex;
+    position: relative;
+    width: 350px;
+    margin-top: -10rem;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.emelia-portrait {
+    display: flex;
+    position: relative;
+    width: 300px;
+    margin-top: -25rem;
+    margin-left: auto;
+    z-index: -1;
+
+    /* margin-left: 0rem;
+    margin-right: -20rem;
+    margin-top: 0rem;
+    margin-bottom: -10rem;
+    overflow: hidden;
+    clip-path: margin-box;
+    padding-right: -70rem; */
+}
+
+
+
+
+
+
+
+
+/* Bottom Section --------------------------------------------------------------------------------------- */
+.bottom-section {
+    background-image: linear-gradient(to bottom, #0c0e17, #273E52);
+    /* background-color: #0c0e17; */
+    display: flex;
+    justify-content: space-between;
+    max-height: 17rem;
+    z-index: 2;
+}
+
+.bottom-left-side {
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+.bottom-middle-side {
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.taro-footer-img {
+    display: flex;
+    position: relative;
+    width: 60rem;
+    object-fit: cover;
+    
+}
+
+
+.footer-logo {
+    display: flex;
+    position: relative;
+    width: 10rem;
+    object-fit: cover;
+    margin-top: -1.2rem;
+    
+}
+
+
+
+.footer-nav {
+    display: flex;
+    margin-top: -2rem;
+}
+
+
+.bottom-nav-item {
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+
+
+.bottom-nav-item:hover {
+    color: #28c6ff;
+}
+
+
+
+.x-logo {
+    display: flex;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+
+.insta-logo {
+    display: flex;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+
+
+.email-icon {
+    display: flex;
+    width: 4rem;
+}
