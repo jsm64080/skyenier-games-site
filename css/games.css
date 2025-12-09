@@ -1,5 +1,10 @@
 body {
-    background-color: rgb(20, 20, 41);
+    background-color: #2d051b;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +20,6 @@ h1 {
     font-size: 8rem;
     margin-top: -0rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
 }
 
 
@@ -50,6 +54,8 @@ p {
     line-height: 1.7rem;
     color: white;
     font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 a {
@@ -74,84 +80,101 @@ input {
     font-size: 1rem;
 }
 
-
-
-/* Contact Section --------------------------------------------------------------------------------------- */
-
-.contact-us-display {
-    /* border: lightcoral;
-    border-style: solid; */
-    display: flex;
-}
-
-.contact-text-input {
-    background-color:rgb(20, 20, 41);
-    color: aliceblue;
-    width: 30rem;
-}
-
-.contact-message-input {
-    width: 30rem;
-    background-color: rgb(20, 20, 41);
-    color: aliceblue;
-    text-wrap: inherit;
+hr {
+    width: 80%;
 }
 
 
-
-.contact-table {
-    display: flex;
-    position: relative;
-    border-width: 5px;
-    border: white;
-    border-style: solid;
-    background-color:#273E52;
-    padding-left: 1rem;
-    padding-right: 2rem;
+th {
+    width: 2rem;
 }
 
-
-
-
-.submit-button {
-    display: flex;
-    position: relative;
-    height: 2rem;
-    width: 5rem;
-    margin-left: 28rem;
-    background-color: #065180;
+tr {
+    width: 2rem;
 }
 
-.submit-button:hover {
-    background-color: #0d7fc6;
-}
-
-
-
-
-
-.right-side {
+div {
     display: flex;
     flex-direction: column;
 }
 
-.contact-info {
-    display: flex;
-    margin-left: 2rem;
+
+
+
+/* Games Section --------------------------------------------------------------------------------------- */
+.games-header {
+    color: #f84ea8;
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.taro-running {
-    display: flex;
-    z-index: -1;
-    position: absolute;
-    width: 70rem;
+.pseudoworker-banner {
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
     margin-top: 3rem;
-    margin-left: 35rem;
+}
+
+.header-area {
+    background-color: #5a1238;
+    text-align: center;
+}
+
+.images-header {
+    color: #f84ea8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
+.image {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+.gameplay-video {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    border: 3px #f84ea8;
+    border-style: solid;
+    
+}
+
+
+.warning-message {
+    color: rgb(196, 195, 195);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.95rem;
+}
+
+
+.portrait {
+    margin-bottom: 0.4rem;
+    width: 60%;
+}
+
+
+.caption {
+    color: rgb(205, 204, 204);
+    font-size: 0.98rem;
+    text-align: center;
+}
+
+
+.caption-row {
+    vertical-align: top;
+}
+
+.portrait-table {
+    margin-bottom: 5rem;
+}
 
 
 /* Bottom Section --------------------------------------------------------------------------------------- */
@@ -242,4 +265,3 @@ input {
     display: flex;
     width: 4rem;
 }
-

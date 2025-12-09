@@ -4,6 +4,11 @@ body {
     flex-direction: column;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #28c6ff;
 }
@@ -15,7 +20,8 @@ h1 {
     font-size: 8rem;
     margin-top: -0rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -26,6 +32,7 @@ h2 {
     line-height: 1.7rem;
     color: #28c6ff;
     font-size: 2.3rem;
+    margin-left: 1rem;
 }
 
 
@@ -50,6 +57,7 @@ p {
     line-height: 1.7rem;
     color: white;
     font-size: 1.2rem;
+    margin-left: 2rem;
 }
 
 a {
@@ -76,78 +84,46 @@ input {
 
 
 
-/* Contact Section --------------------------------------------------------------------------------------- */
 
-.contact-us-display {
-    /* border: lightcoral;
-    border-style: solid; */
-    display: flex;
-}
+/* About Section --------------------------------------------------------------------------------------- */
 
-.contact-text-input {
-    background-color:rgb(20, 20, 41);
-    color: aliceblue;
-    width: 30rem;
-}
-
-.contact-message-input {
-    width: 30rem;
-    background-color: rgb(20, 20, 41);
-    color: aliceblue;
-    text-wrap: inherit;
-}
-
-
-
-.contact-table {
-    display: flex;
-    position: relative;
-    border-width: 5px;
-    border: white;
-    border-style: solid;
-    background-color:#273E52;
-    padding-left: 1rem;
-    padding-right: 2rem;
-}
-
-
-
-
-.submit-button {
-    display: flex;
-    position: relative;
-    height: 2rem;
-    width: 5rem;
-    margin-left: 28rem;
-    background-color: #065180;
-}
-
-.submit-button:hover {
-    background-color: #0d7fc6;
-}
-
-
-
-
-
-.right-side {
+.about-us-title {
     display: flex;
     flex-direction: column;
+    color: #28c6ff;
 }
 
-.contact-info {
-    display: flex;
-    margin-left: 2rem;
+.about-us-header {
+    color: #28c6ff;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.taro-running {
-    display: flex;
-    z-index: -1;
-    position: absolute;
-    width: 70rem;
-    margin-top: 3rem;
-    margin-left: 35rem;
+.images {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 }
+
+.caption {
+    color: rgb(204, 204, 204);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.header-area {
+    background-color:#273E52;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 
@@ -242,4 +218,3 @@ input {
     display: flex;
     width: 4rem;
 }
-

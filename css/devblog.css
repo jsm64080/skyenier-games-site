@@ -1,21 +1,29 @@
 body {
-    background-color: rgb(20, 20, 41);
+    background-color: rgb(15, 32, 34);
     display: flex;
     flex-direction: column;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #28c6ff;
 }
 
+
 h1 {
     font-family: "Jomhuria", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 8rem;
+    font-size: 10rem;
     margin-top: -0rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -38,6 +46,14 @@ h3 {
     font-size: 1.5rem;
 }
 
+h4 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: aquamarine;
+    font-size: 1.1rem;
+}
 
 
 
@@ -74,83 +90,54 @@ input {
     font-size: 1rem;
 }
 
-
-
-/* Contact Section --------------------------------------------------------------------------------------- */
-
-.contact-us-display {
-    /* border: lightcoral;
-    border-style: solid; */
-    display: flex;
-}
-
-.contact-text-input {
-    background-color:rgb(20, 20, 41);
-    color: aliceblue;
-    width: 30rem;
-}
-
-.contact-message-input {
-    width: 30rem;
-    background-color: rgb(20, 20, 41);
-    color: aliceblue;
-    text-wrap: inherit;
+hr {
+    width: 80%;
 }
 
 
+/* Dev Blog Section --------------------------------------------------------------------------------------- */
+.dev-blog-header {
+    color: #18ecd7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1rem;
+}
 
-.contact-table {
-    display: flex;
-    position: relative;
-    border-width: 5px;
-    border: white;
-    border-style: solid;
-    background-color:#273E52;
-    padding-left: 1rem;
-    padding-right: 2rem;
+.blog-background {
+    background-color:#222b49;
 }
 
 
-
-
-.submit-button {
-    display: flex;
-    position: relative;
-    height: 2rem;
-    width: 5rem;
-    margin-left: 28rem;
-    background-color: #065180;
-}
-
-.submit-button:hover {
-    background-color: #0d7fc6;
-}
-
-
-
-
-
-.right-side {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-info {
-    display: flex;
+.blog-post-title {
+    color: #5fbaff;
     margin-left: 2rem;
 }
 
-.taro-running {
+
+.blog-post-date {
+    color: aqua;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top: auto;
+}
+
+.blog-content {
+    color: #f9fdff;
+    font-size: 1.0rem;
+    margin-left: 5.0rem;
+}
+
+.blog-title-and-date {
     display: flex;
-    z-index: -1;
-    position: absolute;
-    width: 70rem;
-    margin-top: 3rem;
-    margin-left: 35rem;
+    background-color: #14182b;
 }
 
 
 
+.line {
+    color: #18ecd7;
+    width: 80%;
+}
 
 
 
@@ -242,4 +229,3 @@ input {
     display: flex;
     width: 4rem;
 }
-

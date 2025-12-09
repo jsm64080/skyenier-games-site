@@ -43,9 +43,6 @@ h3 {
 
 
 
-
-
-
 p {
     font-family: "Jost", sans-serif;
     font-weight: 300;
@@ -135,7 +132,6 @@ ul {
 
 .blog-post-title {
     color: #5fbaff;
-    font-size: 1.5rem;
 }
 
 .blog-post-title:hover {

@@ -75,6 +75,9 @@ input {
 
 
 
+
+
+/* Support Us Section --------------------------------------------------------------------------------------- */
 .support-us-header {
     color: #28c6ff;
     margin-left: 1rem;
@@ -122,14 +125,6 @@ input {
     margin-top: -25rem;
     margin-left: auto;
     z-index: -1;
-
-    /* margin-left: 0rem;
-    margin-right: -20rem;
-    margin-top: 0rem;
-    margin-bottom: -10rem;
-    overflow: hidden;
-    clip-path: margin-box;
-    padding-right: -70rem; */
 }
 
 
