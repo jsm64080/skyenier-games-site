@@ -180,7 +180,6 @@ div {
 /* Bottom Section --------------------------------------------------------------------------------------- */
 .bottom-section {
     background-image: linear-gradient(to bottom, #0c0e17, #273E52);
-    /* background-color: #0c0e17; */
     display: flex;
     justify-content: space-between;
     max-height: 17rem;
@@ -195,6 +194,7 @@ div {
 
 .bottom-middle-side {
     display: flex;
+    flex-direction: row;
     align-items: end;
     position: relative;
     margin-bottom: 0.5rem;
